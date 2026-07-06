@@ -29,19 +29,19 @@ The complete architecture is modular, parameterized, synthesizable, and function
 
 ## 🏗 Architecture Overview
 
-> _(Insert Architecture.png here)_
+![Architecture](diagrams/Architecture.png)
 
 ---
 
 ## 📦 Block Diagram
 
-> _(Insert Block_Diagram.png here)_
+![Block Diagram](diagrams/Block_Diagram.png)
 
 ---
 
 ## 🔄 Datapath
 
-> _(Insert Datapath.png here)_
+![Datapath](diagrams/Datapath.png)
 
 ---
 
@@ -57,6 +57,7 @@ top_dft
 ├── misr
 └── signature_comparator
 ```
+![RTL Hierarchy](diagrams/RTL_Hierarchy.png)
 
 ---
 
@@ -85,7 +86,10 @@ Signature Comparison
    │
    ▼
 PASS / FAIL
+
 ```
+![FSM](diagrams/FSM_Diagram.png)
+![BIST Flow](diagrams/BIST_Flow.png)
 
 ---
 
@@ -121,6 +125,7 @@ Clock-Gated-Scan-Chain-Based-LBIST/
 
 ---
 
+
 ## 🧪 Verification
 
 The design has been functionally verified through multiple simulation scenarios:
@@ -132,7 +137,10 @@ The design has been functionally verified through multiple simulation scenarios:
 
 Waveforms were analyzed using **EPWave**.
 
-> _(Insert simulation screenshots here)_
+![Simulation_Output_1](waveforms/Simulation_Output_1.png)
+![Simulation_Output_2](waveforms/Simulation_Output_2.png)
+![Simulation_Output_3](waveforms/Simulation_Output_3.png)
+![EPWave](waveforms/EPWave.png)
 
 ---
 
